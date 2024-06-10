@@ -1,0 +1,74 @@
+.section1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: aliceblue;
+}
+
+.item {
+    background-color: white;
+    border: 1px solid #474444;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px;
+    width: 30%;
+    height: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-section {
+    width: 300px;
+    height: 300px;
+}
+
+.pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.heading{
+color: rgb(80, 80, 186);
+font-weight: 500;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.rating{
+    font-size: x-large;
+    font-weight: 600;
+    color: orange;
+}
+.price{
+    font-size: xx-large;
+    color: rgb(190, 62, 62);
+    font-weight: 700;
+}
+
+.category{
+    font-size: larger;
+    font-weight: 500;
+    color: blueviolet;
+}
+
+.page-number {
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.page-number.active {
+    font-weight: bold;
+}
+
+.sort-controls {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.sort-controls select {
+    padding: 5px 10px;
+    margin-left: 10px;
+}
